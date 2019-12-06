@@ -5,7 +5,5 @@ require 'rspec-puppet-facts'
 include RspecPuppetFacts
 
 RSpec.configure do |config|
-  config.mock_with :rspec do |c|
-    c.syntax = :expect
-  end
+  config.mock_with :mocha
 end
