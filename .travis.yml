@@ -11,4 +11,8 @@ matrix:
       env: PUPPET_VERSION=4.0
     - rvm: 2.3.0
       env: PUPPET_VERSION=4.4
+    - rvm: 2.3.0
+      env: PUPPET_VERSION=5.5.17
+    - rvm: 2.3.0
+      env: PUPPET_VERSION=6.0.10
 sudo: false
