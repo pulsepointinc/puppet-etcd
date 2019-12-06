@@ -27,11 +27,11 @@ gem 'puppet-lint-usascii_format-check'
 gem 'puppet-lint-variable_contains_upcase'
 gem 'puppet-lint-version_comparison-check'
 gem 'simplecov'
-gem 'puppet-blacksmith', '>= 3.1.0', {"groups"=>["development"]}
-gem 'json', '~> 1.0', {"platforms"=>["ruby_19"], "groups"=>["test"]}
-gem 'json_pure', '~> 1.0', {"platforms"=>["ruby_19"], "groups"=>["test"]}
+gem 'puppet-blacksmith'
+gem 'json'
+gem 'json_pure'
 gem 'metadata-json-lint'
-gem 'webmock', '< 2.0'
-gem 'addressable', '< 2.4', {"platforms"=>["ruby_18"]}
+gem 'webmock'
+gem 'addressable'
 gem 'oauth'
-gem 'parallel_tests', {"platforms"=>["ruby_20", "ruby_21"]}
+gem 'parallel_tests'

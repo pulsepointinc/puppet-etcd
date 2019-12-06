@@ -5,8 +5,8 @@ bundler_args: --without development
 matrix:
   fast_finish: true
   include:
-    - rvm: 2.3.0
+    - rvm: 2.4.0
       env: PUPPET_VERSION=5.5.17
-    - rvm: 2.3.0
-      env: PUPPET_VERSION=6.0.10
+    - rvm: 2.4.0
+      env: PUPPET_VERSION=6.10.0
 sudo: false
